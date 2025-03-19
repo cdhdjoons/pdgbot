@@ -11,26 +11,26 @@ await bot.init();
 bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
-      [{ text: "Enter the Cockpit", web_app: { url: "https://jetfuelgame.vercel.app/" } }],  // 게임 링크 수정
-      [{ text: "Follow X", url: "https://x.com/JFT_official_X" }],
-      [{ text: "Join Official Telegram", url: "https://t.me/Official_JetFuel" }],
+      [{ text: "Start Food Missions 🍜", web_app: { url: "https://pdggame.vercel.app/" } }],  // 게임 링크 수정
+      [{ text: "Follow on X 🐦", url: "https://x.com/PDG_official_X" }],
+      [{ text: "Join Telegram Chat 💬", url: "https://t.me/Official_JetFuel" }],
     ],
   };
 
   const message = `
-✨ Welcome, Pilot! ✈️🔥
-
-The skies are calling, and JetFuel is ready for takeoff! You’ve been chosen to engage in high-speed aerial combat, outmaneuver rivals, and rise to the top of the ranks. Fuel your flight, earn rewards, and dominate the skies!
+🚀 Welcome to ProdigiConnect! 🍽🎮
+The world of food, rewards, and blockchain awaits you! 🌍🍜
+You’ve just entered ProdigiConnect, where you can discover global food hotspots, complete GameFi-powered food missions, and earn PDG tokens!
 
 🔥 What you can do here:
-✈️ Engage in intense dogfights and aerial battles
-🏆 Earn JTF tokens through Play-to-Earn combat
-🌍 Climb the leaderboards and become an elite pilot
+🍽 Check-in at restaurants & unlock rewards
+🎮 Complete mini-game missions & earn PDG tokens
+📝 Write food reviews & climb the leaderboard
 
-🚀 Your mission begins now! Tap below to start your journey.
+🚀 Your journey begins now! Tap below to start exploring!
   `;
 
-  const pngUrl = 'https://jetfuelbot.vercel.app/jetfuelpic.png';  // public 폴더에 있는 이미지 파일 경로
+  const pngUrl = 'https://pdgbot.vercel.app/pdgpic.png';  // public 폴더에 있는 이미지 파일 경로
 
   // ✅ GIF + 메시지 + 버튼을 한 번에 보냄
   await ctx.replyWithPhoto(pngUrl, {
