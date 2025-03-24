@@ -13,7 +13,7 @@ bot.command("start", async (ctx) => {
     inline_keyboard: [
       [{ text: "Start Food Missions 🍜", web_app: { url: "https://pdggame.vercel.app/" } }],  // 게임 링크 수정
       [{ text: "Follow on X 🐦", url: "https://x.com/PDG_official_X" }],
-      [{ text: "Join Telegram Chat 💬", url: "https://t.me/Official_JetFuel" }],
+      [{ text: "Join Telegram Chat 💬", url: "https://t.me/PDG_Offcial" }],
     ],
   };
 
